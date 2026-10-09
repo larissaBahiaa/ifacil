@@ -10,12 +10,12 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Center(
+      body: Column(
+        children: [Center(
           child: Column(
             children: [
               SizedBox(
-              height: 50,
+              height: 120,
             ),
 
               Image.asset(
@@ -27,26 +27,30 @@ class LoginScreen extends StatelessWidget {
               'IFácil',
               style: TextStyle(
                 fontSize: 20,
+                  fontWeight: FontWeight.bold,
                 color: Pallete.greenColor
               ),
             ),
 
             SizedBox(height: 15),
-            const Text('Preparação inteligente para o IFMA', style: TextStyle(fontSize: 22, color: Color.fromARGB(255, 29, 28, 28))),
+            SizedBox(
+                width: 300,
+                child: Center(child: Text('Preparação inteligente para o IFMA', textAlign: TextAlign.center, style: TextStyle(fontSize: 22, color: Pallete.blackColor))),
+            ),
 
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             SocialButton(iconName: 'google', label: 'Entrar com Google', onPressed: () {}),
-            SizedBox(height:15),
+            SizedBox(height:12),
             Greenbutton( label: 'Entrar com Email' , onPressed: () {}),
-            SizedBox(height: 15),
+            SizedBox(height: 12),
             BgButton( label: 'Criar conta', onPressed: () {}),
-            SizedBox(height: 15),
+            SizedBox(height: 80),
             const Text('Ao continuar, você concorda com nossos', style: TextStyle(color: Pallete.blackColor)),
             const Text('Termos de uso', style: TextStyle(color: Pallete.greenColor)),
             SizedBox(height: 15),
             ],
           ),
-        ),
+        )],
       ),
     );
   }
