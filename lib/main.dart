@@ -22,9 +22,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Ifacil',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
+      theme:ThemeData(fontFamily: 'Google',
         scaffoldBackgroundColor: Pallete.backgroundColor,
-        
       ),
       home: LoginScreen()
     );

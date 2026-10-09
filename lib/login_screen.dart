@@ -15,7 +15,7 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-              height: 120,
+              height: 100,
             ),
 
               Image.asset(
@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
               const Text(
               'IFácil',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 30,
                   fontWeight: FontWeight.bold,
                 color: Pallete.greenColor
               ),
