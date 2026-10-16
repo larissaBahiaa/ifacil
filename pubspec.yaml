@@ -63,6 +63,7 @@ flutter:
   assets:
     - assets/images/logo_ifacil.png
     - assets/svgs/google.svg
+    - assets/images/iconmenu.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -4,6 +4,8 @@ import 'package:app_ifacil/widgets/button.dart';
 import 'package:app_ifacil/widgets/greenbutton.dart';
 import 'package:flutter/material.dart';
 
+import 'package:app_ifacil/login_input.dart';
+
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -41,7 +43,12 @@ class LoginScreen extends StatelessWidget {
             SizedBox(height: 30),
             SocialButton(iconName: 'google', label: 'Entrar com Google', onPressed: () {}),
             SizedBox(height:12),
-            Greenbutton( label: 'Entrar com Email' , onPressed: () {}),
+            Greenbutton( label: 'Entrar com Email' , onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const LoginInput()),
+              );
+            }),
             SizedBox(height: 12),
             BgButton( label: 'Criar conta', onPressed: () {}),
             SizedBox(height: 80),
