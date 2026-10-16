@@ -22,7 +22,7 @@ class BgButton extends StatelessWidget {
         label,
         style: const TextStyle(color: Pallete.greenColor, fontSize: 17),
       ),
-
+      //oi
       style: TextButton.styleFrom(
         minimumSize: const Size(300, 25),
         backgroundColor: Pallete.backgroundColor ,
