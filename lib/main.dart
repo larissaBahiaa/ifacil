@@ -2,7 +2,6 @@ import 'package:app_ifacil/login_screen.dart';
 import 'package:app_ifacil/pallete.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:app_ifacil/Professor/home.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme:ThemeData(fontFamily: 'Google',
         scaffoldBackgroundColor: Pallete.backgroundColor,
       ),
-      home: ProfessorHome()
+      home: LoginScreen()
     );
   }
 }
