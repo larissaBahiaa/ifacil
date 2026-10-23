@@ -1,4 +1,4 @@
-import 'package:app_ifacil/model/bottonNavBar.dart';
+import 'package:app_ifacil/Professor/modelProfessor/bottonNavBar.dart';
 import 'package:app_ifacil/pallete.dart';
 import 'package:app_ifacil/model/menu.dart';
 import 'package:flutter/material.dart';
