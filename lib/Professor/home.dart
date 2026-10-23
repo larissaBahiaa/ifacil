@@ -1,7 +1,7 @@
 import 'package:app_ifacil/pallete.dart';
 import 'package:app_ifacil/model/menu.dart';
 import 'package:flutter/material.dart';
-
+import 'package:app_ifacil/Professor/dashboardinicial.dart';
 class ProfessorHome extends StatelessWidget {
   const ProfessorHome({super.key});
 
@@ -38,6 +38,7 @@ class ProfessorHome extends StatelessWidget {
               ),
             ),
           ),
+          const DashboardInicial()
         ],
       ),
     );
