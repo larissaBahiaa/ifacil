@@ -1,0 +1,1 @@
+//proximo widget modularizado
