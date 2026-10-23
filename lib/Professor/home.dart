@@ -1,3 +1,4 @@
+import 'package:app_ifacil/model/bottonNavBar.dart';
 import 'package:app_ifacil/pallete.dart';
 import 'package:app_ifacil/model/menu.dart';
 import 'package:flutter/material.dart';
@@ -41,6 +42,7 @@ class ProfessorHome extends StatelessWidget {
           const DashboardInicial()
         ],
       ),
+      bottomNavigationBar: const Bottonnavbar(),
     );
   }
 }
