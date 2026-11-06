@@ -2,6 +2,7 @@ import 'package:app_ifacil/login_screen.dart';
 import 'package:app_ifacil/pallete.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'Aluno/sign_up.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
